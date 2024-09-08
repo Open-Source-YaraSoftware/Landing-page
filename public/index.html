@@ -11,6 +11,40 @@
     <title>Workshop N-GINE</title>
 </head>
 <body>
+    <header class="header"  id="home"></header>
+        <nav class="navbar">
+            <a class="navbar__logo" href="#home">
+                <img src="./assets/img/logo.png" alt="Logo de Workshop N-GINE">
+                <p>Yara Software</p>
+            </a>
+            <img class="navbar__icon-menu" id="display-button" src="./assets/icon/menu.svg" alt="Icon of menu">
+            <div class="navbar__complete-list">
+                <ul class="navbar__list">
+                    <li class="navbar__link"><a href="#learn-more">Learn more</a></li>
+                    <li class="navbar__link"><a href="#benefits">Benefits</a></li>
+                    <li class="navbar__link"><a href="#testimonials">Testimonials</a></li>
+                    <li class="navbar__link"><a href="#about-us">About us</a></li>
+                    <li class="navbar__link"><a href="#plan">Plans</a></li>
+                </ul>
+                <div class="navbar__buttons">
+                    <button class="navbar__button navbar__button--white"><a href="/">Sign up</a></button>
+                    <button class="navbar__button"><a href="/">Log in</a></button>
+                    <label class="language" for="language-select">
+                        <select class="language__options" id="language-select">
+                            <option class="language__option" value="en">EN</option>
+                            <option class="language__option" value="es">ES</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+        </nav>
+        <figure class="banner">
+            <figcaption class="banner__content">
+                <h1 class="banner__title">Digitize your workshop management and improve your relationship with your customers</h1>
+                <button class="banner__button"><a href="#learn-more">GET STARTED</a></button>
+            </figcaption>
+        </figure>
+    </header>
     <script type="module" src="./js/main.js"></script>
 </body>
 </html>
