@@ -1,5 +1,6 @@
 import {
     onButtonMobileClick,
+    onWindowLoad,
     onWindowResize,
     onWindowScroll
 } from "./modules/eventHandlers.js";
@@ -7,5 +8,7 @@ import {
 onButtonMobileClick();
 
 onWindowResize();
+
+onWindowLoad();
 
 onWindowScroll();
